@@ -193,7 +193,7 @@ else:
                         
                         if match:
                             event_id = match['id']
-                            st.success(f"✅ {bookie}: Match!")
+                            st.success(f" Jogo Encontrado em {bookie}")
                             
                             # Botão individual para chamar as odds DENTRO do match encontrado
                             if st.button(f"Extrair Odds {bookie}", key=f"btn_{bookie}_{event_id}"):
