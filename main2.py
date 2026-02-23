@@ -8,7 +8,7 @@ import api # Importando seu arquivo api.py
 st.set_page_config(page_title="Arbitragem NBA Pro", page_icon="🏀", layout="wide")
 
 # ARQUITETURA MODULAR DE CASAS (Adicione futuras casas aqui)
-BOOKMAKERS_ATIVOS = ["Novibet"]
+BOOKMAKERS_ATIVOS = ["Bet365"]
 
 # --- CSS AVANÇADO ---
 st.markdown("""
