@@ -6,6 +6,8 @@ import ast
 # --- CONFIGURAÇÃO DA PÁGINA ---
 st.set_page_config(page_title="Arbitragem NBA Pro", page_icon="🏀", layout="wide")
 
+api_key = st.secrets["bet_api_key"]
+
 # --- CSS AVANÇADO ---
 st.markdown("""
     <style>
