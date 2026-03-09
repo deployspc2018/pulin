@@ -2,3 +2,6 @@
 venv/
 .streamlit
 __pycache__/
+dev/
+old/
+placeholder.toml
